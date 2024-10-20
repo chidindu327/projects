@@ -1,0 +1,130 @@
+/* Center the card vertically */
+.min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form styling */
+  .form-control {
+    border-radius: 10px;
+    padding: 12px;
+  }
+  
+  /* Buttons */
+  .btn {
+    border-radius: 20px;
+  }
+  
+  /* Tab button hover effect */
+  .nav-pills .nav-link:hover {
+    background-color: #007bff;
+  }
+  /* Custom CSS for the Instagram-style header */
+
+/* Navbar */
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  /* Logo */
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Search Bar */
+  .form-control {
+    width: 400px;
+  }
+  
+  /* Navbar Icons */
+  .nav-link {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+
+  /* Center the card vertically */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Card styling */
+.card {
+  border-radius: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Form styling */
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 20px;
+}
+
+/* Tab button hover effect */
+.nav-pills .nav-link:hover {
+  background-color: #007bff;
+}
+/* Facebook blue color for the navbar */
+.facebook-navbar {
+    background-color: #1877F2; /* Facebook blue */
+  }
+  
+  .facebook-navbar .navbar-brand img {
+    height: 40px;
+  }
+  
+  .facebook-navbar .form-control {
+    background-color: white;
+    color: #333;
+    border-radius: 50px;
+    padding-left: 15px;
+  }
+  
+  .facebook-navbar .nav-link {
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  .facebook-navbar .nav-link:hover {
+    color: #dce6f2; /* Lighter hover effect */
+  }
+
+/* Section titles */
+h2 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Card shadow effect */
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons styling */
+  .btn {
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
