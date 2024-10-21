@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- Logo -->
     <a class="navbar-brand" href="#">
-      <img src="inc/social2.webp" alt="Logo" width="60" class="img-fluid">
+      <img src="inc/social2.webp" alt="Logo" width="40" class="img-fluid">
     </a>
     
     <!-- Search Bar -->

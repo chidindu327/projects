@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- Logo -->
     <a class="navbar-brand" href="#">
-      <img src="inc/social2.webp" alt="Logo" width="60" class="img-fluid">
+      <img src="inc/social2.webp" alt="Logo" style="height: 40px;" class="img-fluid">
     </a>
     
     <!-- Search Bar -->
@@ -51,7 +51,7 @@
       <!-- Login Icon -->
       <li class="nav-item">
         <a class="nav-link" href="Login.php">
-          <i class=""></i> <!-- Profile Icon -->
+          <i class="bi bi-box-arrow-in-right"></i> <!-- Profile Icon -->
         </a>
       </li>
     </ul>
