@@ -53,7 +53,36 @@ function execute($query) {
 }
 }
 
-function validate(){
- 
+function timeAgo($datetime) {
+    $time = strtotime($datetime);  // Convert the datetime to a Unix timestamp
+    $time_difference = time() - $time;  // Calculate the difference between now and the datetime
 
+    // Seconds conversion
+    $seconds = $time_difference;
+    $minutes = round($seconds / 60);
+    $hours = round($seconds / 3600);
+    $days = round($seconds / 86400);
+    $weeks = round($seconds / 604800);
+    $months = round($seconds / 2629440);
+    $years = round($seconds / 31553280);
+
+    // Return appropriate time ago string based on the difference
+    if ($seconds <= 60) {
+        return "Just now";
+    } elseif ($minutes <= 60) {
+        return $minutes == 1 ? "1 minute ago" : "$minutes minutes ago";
+    } elseif ($hours <= 24) {
+        return $hours == 1 ? "1 hour ago" : "$hours hours ago";
+    } elseif ($days <= 7) {
+        return $days == 1 ? "Yesterday" : "$days days ago";
+    } elseif ($weeks <= 4.3) {  // 4.3 weeks per month
+        return $weeks == 1 ? "1 week ago" : "$weeks weeks ago";
+    } elseif ($months <= 12) {
+        return $months == 1 ? "1 month ago" : "$months months ago";
+    } else {
+        return $years == 1 ? "1 year ago" : "$years years ago";
+    }
 }
+
+
+

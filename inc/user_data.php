@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Africa/Lagos');
 if (session_status() == PHP_SESSION_ACTIVE) {
 
     $fullname =  $_SESSION['full_name'];

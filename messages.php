@@ -32,7 +32,7 @@ include "inc/controller.php";
     <div class="row">  
     <!-- Message Entry 1 -->
      <?php
-     $sql = "SELECT * FROM users";
+     $sql = "SELECT * FROM users where username!='$username'" ;
      $result = fetchdata($sql);
      foreach ($result as $row) { 
      ?>
@@ -41,7 +41,7 @@ include "inc/controller.php";
           <img src="https://via.placeholder.com/50" alt="User 1" class="rounded-circle me-3">
           <div class="message-content">
             <a href="chat.php?username=<?php echo $row['username'];?>&&fullname=<?php echo $row['full_name'];?>"><h5><?php echo $row['full_name'];?></h5></a>
-            <p>Hey! Are we still on for the meeting tomorrow?</p>
+            <p><?php echo $row['message'];?></p>
             <span class="text-muted">2 mins ago</span>
           </div>
         </div>
