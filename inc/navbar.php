@@ -2,9 +2,9 @@
   <div class="container-fluid">
     <!-- Logo -->
     <a class="navbar-brand" href="#">
-      <img src="inc/social2.webp" alt="Logo" style="height: 40px;" class="img-fluid">
+      <!-- <img sr="inc/social2.webp" alt="Logo" style="max-width: 100px;"> -->
     </a>
-    
+    <img src="inc/social2.webp" alt="Logo" style="max-width: 60px;">
     <!-- Search Bar -->
     <form class="d-flex mx-auto" role="search">
       <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
